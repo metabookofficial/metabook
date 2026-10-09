@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metabook — Your Life, The Movie</title>
+<meta name="description" content="Your life already wrote the story. Metabook just presses play. Cinematic films from your Facebook story — $99.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 20px;background:radial-gradient(ellipse at center,#1a1a1a 0%,#0a0a0a 70%)}
+.logo{width:110px;height:110px;border-radius:50%;margin-bottom:24px;box-shadow:0 0 40px rgba(212,175,55,.3)}
+h1{font-size:clamp(2rem,6vw,3.5rem);font-weight:800;letter-spacing:-1px;margin-bottom:12px}
+h1 .gold{color:#D4AF37}
+.tagline{font-size:clamp(1rem,3vw,1.3rem);color:#ccc;max-width:600px;margin-bottom:32px}
+.btn{display:inline-block;background:#D4AF37;color:#0a0a0a;font-weight:700;font-size:1.1rem;padding:16px 40px;border-radius:50px;text-decoration:none;margin:8px;transition:transform .2s}
+.btn:hover{transform:scale(1.05)}
+.btn-outline{background:transparent;color:#D4AF37;border:2px solid #D4AF37}
+.film{max-width:420px;width:100%;margin:40px auto;border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.film video{width:100%;display:block}
+section{padding:70px 20px;max-width:900px;margin:0 auto;text-align:center}
+h2{font-size:clamp(1.5rem,4vw,2.2rem);margin-bottom:16px}
+h2 .gold{color:#D4AF37}
+.cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.card{background:#141414;border:1px solid #2a2a2a;border-radius:16px;padding:32px 24px;width:260px}
+.card.featured{border-color:#D4AF37;box-shadow:0 0 30px rgba(212,175,55,.15)}
+.card h3{color:#D4AF37;font-size:1.2rem;margin-bottom:8px}
+.card .price{font-size:2rem;font-weight:800;margin:8px 0}
+.card p{color:#aaa;font-size:.95rem;margin-bottom:20px}
+.card .btn{padding:12px 28px;font-size:1rem}
+.howto{text-align:left;max-width:600px;margin:32px auto}
+.howto li{margin:16px 0;list-style:none;font-size:1.05rem}
+.howto .n{display:inline-block;background:#D4AF37;color:#0a0a0a;font-weight:800;width:32px;height:32px;border-radius:50%;text-align:center;line-height:32px;margin-right:12px}
+footer{padding:40px 20px;text-align:center;color:#666;font-size:.85rem;border-top:1px solid #1a1a1a}
+footer a{color:#D4AF37}
+</style>
+</head>
+<body>
+<div class="hero">
+<img class="logo" src="https://muse.ai/files/759467917251475/1412773284385818/r37yg9yvkxa5b6ly8rh8b6kp/metabook-profile-1080.png" alt="Metabook">
+<h1>Your life already wrote the story.<br><span class="gold">Metabook just presses play.</span></h1>
+<p class="tagline">We turn your Facebook story into a cinematic film. Real photos. Your voice. Music. The movie of your life.</p>
+<div class="film">
+<a href="https://youtube.com/shorts/MxuToBrbJ38" target="_blank" style="display:block;position:relative">
+<img src="https://i.ytimg.com/vi/MxuToBrbJ38/maxresdefault.jpg" alt="Watch the Metabook film" style="width:100%;border-radius:16px;display:block">
+<span style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:84px;height:84px;background:rgba(212,175,55,.95);border-radius:50%;display:flex;align-items:center;justify-content:center">
+<span style="width:0;height:0;border-left:28px solid #0a0a0a;border-top:18px solid transparent;border-bottom:18px solid transparent;margin-left:6px"></span>
+</span>
+</a>
+</div>
+<p class="tagline" style="margin-top:16px">👆 Watch — this is a real Metabook film.</p>
+<a class="btn" href="https://buy.stripe.com/6oU7sLdYbfES9YI2U76AM03">Get Your Film — $99</a>
+<a class="btn btn-outline" href="#trailer">Free 15s Trailer</a>
+</div>
+
+<section>
+<h2>How it <span class="gold">works</span></h2>
+<ul class="howto">
+<li><span class="n">1</span> You order — $99, one time.</li>
+<li><span class="n">2</span> We cut your story into a 60-second cinematic film — your photos, your voice, music.</li>
+<li><span class="n">3</span> Delivered in 72 hours. Private link + download. Yours forever.</li>
+<li><span class="n">4</span> Your movie keeps growing — a new chapter every 30 days ($19/mo).</li>
+</ul>
+</section>
+
+<section id="pricing">
+<h2>One price. <span class="gold">Your story.</span></h2>
+<div class="cards">
+<div class="card featured">
+<h3>The Film</h3>
+<div class="price">$99</div>
+<p>60-second cinematic film of your story. Your photos, your voice, music. Delivered in 72 hours. 1 revision included.</p>
+<a class="btn" href="https://buy.stripe.com/6oU7sLdYbfES9YI2U76AM03">Get My Film</a>
+</div>
+<div class="card">
+<h3>Chapters</h3>
+<div class="price">$19<span style="font-size:1rem">/mo</span></div>
+<p>A new 60–90 second chapter every 30 days. Your movie keeps growing. First chapter ships on signup day. Cancel anytime.</p>
+<a class="btn" href="https://buy.stripe.com/28E28rbQ31O28UE2U76AM04">Subscribe</a>
+</div>
+<div class="card">
+<h3>Extra Chapter</h3>
+<div class="price">$9</div>
+<p>Can't wait 30 days? An additional chapter on demand, delivered in 72 hours.</p>
+<a class="btn" href="https://buy.stripe.com/fZudR98DReAO7QA66j6AM05">Get Chapter</a>
+</div>
+</div>
+</section>
+
+<section id="trailer">
+<h2>Free <span class="gold">15-second trailer</span></h2>
+<p class="tagline">This month only — I'll cut a free 15-second trailer from your public photos. No catch.</p>
+<a class="btn" href="https://www.facebook.com/profile.php?id=1322680320934910">Comment FILM on our Page</a>
+<p class="tagline" style="margin-top:16px;font-size:.95rem">Or DM us on Instagram <a href="https://www.instagram.com/met.abook/" style="color:#D4AF37">@met.abook</a></p>
+</section>
+
+<footer>
+Metabook — Your life already wrote the story. Metabook just presses play.<br>
+Metabook | PO Box 18380, Raytown, MO 64133<br>
+🎵 "Clean Soul" by Kevin MacLeod (incompetech.com) — CC BY 4.0
+</footer>
+</body>
+</html>
